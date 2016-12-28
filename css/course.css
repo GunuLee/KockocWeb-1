@@ -1,31 +1,8 @@
 /*font-face*/
-@font-face {
-    font-family: 'Nanum Gothic';
-    font-style: normal;
-    font-weight: 400;
-    src: url(../font/NanumGothic.eot);
-    src: url(../font/NanumGothic.eot?#iefix) format('embedded-opentype'),
-    url(../font/NanumGothic.woff2) format('woff2'),
-    url(../font/NanumGothic.woff) format('woff'),
-    url(../font/NanumGothic.ttf) format('truetype');
-}
-
-body {
-    font-family: "Nanum Gothic";
-}
-
+@font-face {    font-family: 'Nanum Gothic';font-style: normal;font-weight: 400;src: url(../font/NanumGothic.eot);src: url(../font/NanumGothic.eot?#iefix) format('embedded-opentype'),url(../font/NanumGothic.woff2) format('woff2'),url(../font/NanumGothic.woff) format('woff'),url(../font/NanumGothic.ttf) format('truetype');}
+body {font-family: "Nanum Gothic";}
 /*finish*/
-
-@font-face {
-    font-family: 'Nanum Gothic';
-    font-style: normal;
-    font-weight: 700;
-    src: url(../font/NanumGothicBold.eot);
-    src: url(../font/NanumGothicBold.eot?#iefix) format('embedded-opentype'),
-    url(../font/NanumGothicBold.woff2) format('woff2'),
-    url(../font/NanumGothicBold.woff) format('woff'),
-    url(../font/NanumGothicBold.ttf) format('truetype');
-}
+@font-face {font-family: 'Nanum Gothic';font-style: normal;font-weight: 700;src: url(../font/NanumGothicBold.eot);src: url(../font/NanumGothicBold.eot?#iefix) format('embedded-opentype'),url(../font/NanumGothicBold.woff2) format('woff2'),url(../font/NanumGothicBold.woff) format('woff'),url(../font/NanumGothicBold.ttf) format('truetype');}
 
 @keyframes slidy {
     0% {
@@ -57,47 +34,18 @@ body {
     }
 }
 
-ul{
-    margin: 0;
-    padding: 0;
-}
+ul{margin: 0;padding: 0;}
+li {list-style: none;}
+a:link {text-decoration: none;color: #494c51;}
+a:visited {text-decoration: none;color: #494c51;}
 
-li {
-    list-style: none;
-}
+#wraper {height: 100%; min-height: 100%;}
 
-a:link {
-    text-decoration: none;
-    color: #494c51;
-}
+#header_upper {position: relative;height: 50px;margin: 0 25%;}
 
-a:visited {
-    text-decoration: none;
-    color: #494c51;
-}
+#main_header {height: 160px;position: relative;}
 
-#wraper {
-    /*position: absolute;
-    margin: 0 25%;*/
-}
-
-#header_upper {
-    position: relative;
-    height: 50px;
-    margin: 0 25%;
-    
-}
-
-#main_header {
-    height: 160px;
-    position: relative;
-}
-
-#main_header #logo {
-    position: relative;
-    float: left;
-    padding-top: 10px;
-}
+#main_header #logo {position: relative;float: left;padding-top: 10px;}
 
 #main_header #logo #logo_img {
     height: 43px;
@@ -214,14 +162,48 @@ a:visited {
 }
 
 #content {
+    top: -25px;
     position: relative;
-    margin: 0 25%;
+    width: 100%;
+    height: 230px;
+    background: #E1E1E1;
+}
+
+#sortbutton {
+    position: relative;
+    background-color: #f66d5b;
+    left:1250px;
+    width: 85px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#sortbutton2 {
+    position: absolute;
+    background-color: #DDDDDD;
+    left: 1350px;
+    width: 85px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .component_content {
     position: relative;
+    margin: 0 25%;
+    top: 20px;
     display: block;
-    margin-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -371,12 +353,13 @@ a:visited {
     position: relative;
 
     width: 960px;
-    height: 172px;
+    height: 810px;
+    margin-bottom: 20px;
 }
 
 .layout_1by3 {
     position: relative;
-    margin: 0;
+    margin-right: 10px;
     padding: 0;
     display: block;
     width: 960px;
@@ -387,6 +370,7 @@ a:visited {
     width: 310px;
     height: 172px;
     float: left;
+    padding-right: 10px;
 }
 
 .layout_1by3_child a img{
@@ -394,9 +378,6 @@ a:visited {
     height: 155px;
 }
 
-.layout_1by3 li:nth-child(2) {
-    margin: 0 15px;
-}
 
 
 
@@ -408,10 +389,11 @@ a:visited {
 }
 
 #footer {
+    position: absolute;
     padding-left: 25%;
-    height: 110px;
-    /*position: relative;*/
-
+    height: 100px;
+    width: 1427px;    
+    top: 100%
     color: #dddddd;
     background-color: #494c51;
 }
@@ -427,7 +409,7 @@ a:visited {
 }
 
 #footer #nav_footer ul li:first-child {
-    padding: 10px 0;
+    padding-top: 10px;
 }
 
 #footer #nav_footer ul li {
@@ -452,7 +434,7 @@ a:visited {
     float: right;
     width: 200px;
     height: 50px;
-    padding-right: 30%
+    padding-right: 25%
 
 }
 
@@ -476,29 +458,77 @@ a:visited {
 #basebutton{
     background-color: #FFFFFF;
     border: solid 1px #C8D7FF;
-    outline: 1px;
-    width: 80px;
+    width: 70px;
     height: 30px;
     margin-top: 5px;
     margin-bottom: 3px;
-    margin-right: 10px;
+    margin-right: 5px;
     border-radius: 6px;
     padding:0 10px;
     color: black;
-    font-size: 13px;
+    font-size: 12px;
     font-color: black;
 }
 #basebuttonUP{
     background-color: #f66d5b;
     border: 0;
-    width: 80px;
+    width: 70px;
     height: 30px;
     margin-top: 5px;
     margin-bottom: 3px;
-    margin-right: 10px;
+    margin-right: 5px;
     border-radius: 6px;
     padding:0 10px;
     border: none;
     color: white;
-    font-size: 13px;
+    font-size: 12px;
+}
+#searchbutton{
+    float: right;
+    background-color: #f66d5b;
+    width: 110px;
+    height: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#pagenumber {
+    position: relative;
+    background-color: #f66d5b;
+    text-align: center;
+    left: 46%;
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#pagenumber2 {
+    position: relative;
+    text-align: center;
+    left: 46%;
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#list {
+    position: relative;
+    width: 100%;
+    height: 980px;
 }
