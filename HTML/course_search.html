@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>콕콕 홈페이지 | 여행 SNS 콕콕, Travel Social Network Service</title>
-<link rel="stylesheet" type="text/css" href="../css/toursite.css">
+<link rel="stylesheet" type="text/css" href="../css/course.css">
 <link rel="stylesheet" type="text/css" href="../css/base.css">
 </head>
 <body>
@@ -21,33 +21,35 @@
                             <li><a href="#none">회원가입</a></li>
                         </ul>
                     </nav>
-                        <!--메인 메뉴-->
-                        <nav id="main_menu_nav">
-                            <ul>
-                                <li><a href="course.html">코스</a></li>
-                                <li><a href="toursite.html">관광지</a></li>
-                                <li><a href="#none">축제정보</a></li>
-                                <li><a href="#none">여행후기</a></li>
-                            </ul>
+                    <!--메인 메뉴-->
+                    <nav id="main_menu_nav">
+                        <ul>
+                            <li><a href="course.html"><div id="font_color">코스</div></a></li>
+                            <li><a href="toursite.html">관광지</a></li>
+                            <li><a href="festivalinfo.html">축제정보</a></li>
+                            <li><a href="review.html">여행후기</a></li>
+                        </ul>
                     </nav>
             </div>
-		        <!--검색 탭-->
-		        <div id="search">
-		            <div id="search_text_field">
-		                 <span id="search_bar">
-		                    <input type='text' id='input_text' placeholder="여행코스 검색" style="text-align: center"/>
-		                </span>
-		                    <button type='submit' id='sch_smit'>검색</button>
-		            </div>
-		            <ul id="search_nav">
-		                 <li><a href="#none">코스짜기+</a></li>
-		                <li><a href="#none">여행후기 작성+</a></li>
-		                <li><a href="#none">여행 팁+</a></li>
-		            </ul>
-		        </div>
+                <!--검색 탭-->
+                <div id="search">
+                    <div id="search_text_field">
+                         <span id="search_bar">
+                            <input type='text' id='input_text' placeholder="여행코스 검색" style="text-align: center"/>
+                        </span>
+                            <button type='submit' id='sch_smit'>검색</button>
+                    </div>
+                    <ul id="search_nav">
+                         <li><a href="#none">코스짜기+</a></li>
+                        <li><a href="#none">여행후기 작성+</a></li>
+                        <li><a href="#none">여행 팁+</a></li>
+                    </ul>
+                </div>
         </header>
     <!--content-->
     <div id="content">
+        
+        <!--추천관광지-->
         <div class="component_content" id="tour_recommend">
             <div class="content_header">
                 <p>관광타입</p><br>
@@ -57,9 +59,7 @@
                     <a href="#none"><button type='submit' id='basebutton'>문화시설</button></a>
                     <a href="#none"><button type='submit' id='basebutton'>레포츠</button></a>
                 </ui>
-           
-            <br>
-            
+            <br>            
                 <p>지역</p><br>
                 <ul>
                     <a href="#none"><button type='submit' id='basebuttonUP'>전체</button></a>
@@ -87,36 +87,38 @@
      </div>
 
     <div id="list">
-	        <!--추천관광지-->
-	        <div class="component_content" id="course_recommend">
-                <div class="content_header">
-                <p>추천관광지</p><br>
-                </div>
-	            <ul class="layout_1by3" >
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
-	                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+        <div>
+            <a href="#none"><button type="submit" id="searchword">검색어: 제천여행</button></a>
+            <a href="#none"><button type="submit" id="sortbutton">인기순</button></a>
+            <a href="#none"><button type="submit" id="sortbutton2">등록순</button></a>
+         </div>
+        <!--코스-->
+        <div class="component_content" id="course_recommend">
+            <ul class="layout_1by3" >
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
+                <li class="layout_1by3_child"><a href=""><img src="../img/course.JPG"></a>
 
-	            </ul>
-	        </div>
-	</div>
-    <div>
-        <button type="submit" id="pagenumber1">1</button>
-        <button type="submit" id="pagenumber2">2</button>
-        <button type="submit" id="pagenumber2">3</button>
-    </div>  
+            </ul>
+        </div>
+    </div>
+        <div>
+                <button type="submit" id="pagenumber">1</button>
+                <button type="submit" id="pagenumber2">2</button>
+                <button type="submit" id="pagenumber2">3</button>
+        </div>
 
 
     <!--푸터-->

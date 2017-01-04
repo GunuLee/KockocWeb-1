@@ -80,6 +80,10 @@ a:visited {text-decoration: none;color: #494c51;}
     padding-right: 20px;
 }
 
+#font_color{
+    color: #f66d5b;
+}
+
 #main_header #main_menu_nav {
     display: block;
     position: relative;
@@ -169,8 +173,23 @@ a:visited {text-decoration: none;color: #494c51;}
     background: #E1E1E1;
 }
 
-#sortbutton {
+#searchword{
     position: relative;
+    background-color: #DDDDDD;
+    width: 480px;
+    height: 45px;
+    left: 25%;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#sortbutton {
+    position: absolute;
     background-color: #f66d5b;
     left:1250px;
     width: 85px;
@@ -205,6 +224,15 @@ a:visited {text-decoration: none;color: #494c51;}
     top: 20px;
     display: block;
     padding-bottom: 20px;
+}
+
+.list_header {
+    position: relative;
+    left: 25%;
+    display: block;
+    width: auto;
+    height: auto;
+    font-size: 20px;
 }
 
 .content_header {
@@ -378,9 +406,6 @@ a:visited {text-decoration: none;color: #494c51;}
     height: 155px;
 }
 
-
-
-
 #tour_review {
     position: relative;
     display: block;
@@ -461,7 +486,6 @@ a:visited {text-decoration: none;color: #494c51;}
     width: 70px;
     height: 30px;
     margin-top: 5px;
-    margin-bottom: 3px;
     margin-right: 5px;
     border-radius: 6px;
     padding:0 10px;
@@ -486,9 +510,9 @@ a:visited {text-decoration: none;color: #494c51;}
 #searchbutton{
     float: right;
     background-color: #f66d5b;
-    width: 110px;
-    height: 55px;
-    margin-top: 15px;
+    width: 130px;
+    height: 70px;
+    margin-top: 5px;
     margin-bottom: 10px;
     margin-right: 5px;
     border-radius: 6px;
@@ -531,4 +555,19 @@ a:visited {text-decoration: none;color: #494c51;}
     position: relative;
     width: 100%;
     height: 940px;
+}
+
+#monthbutton{
+    background-color: #FFFFFF;
+    border: solid 1px #C8D7FF;
+    width: 48px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 6px;
+    padding:0 10px;
+    color: black;
+    font-size: 12px;
+    font-color: black;
 }

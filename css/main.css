@@ -409,14 +409,8 @@ a:visited {
 
 #footer {
     padding-left: 25%;
-<<<<<<< HEAD
     height: 110px;
     /*position: relative;*/
-=======
-
-    height: 100px;
-    position: relative;
->>>>>>> 9523babcd83b0c9326183468d74ccdbcdefc85f2
 
     color: #dddddd;
     background-color: #494c51;
@@ -433,12 +427,7 @@ a:visited {
 }
 
 #footer #nav_footer ul li:first-child {
-<<<<<<< HEAD
     padding: 10px 0;
-=======
-    padding: 0px 0;
-    padding-top: 10px;
->>>>>>> 9523babcd83b0c9326183468d74ccdbcdefc85f2
 }
 
 #footer #nav_footer ul li {
@@ -499,10 +488,6 @@ a:visited {
     font-size: 13px;
     font-color: black;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 9523babcd83b0c9326183468d74ccdbcdefc85f2
 #basebuttonUP{
     background-color: #f66d5b;
     border: 0;
@@ -516,8 +501,4 @@ a:visited {
     border: none;
     color: white;
     font-size: 13px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 9523babcd83b0c9326183468d74ccdbcdefc85f2
